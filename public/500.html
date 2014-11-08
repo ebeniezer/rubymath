@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>We're sorry, but something went wrong (500)</title>
+  <title>Answer to Project Euler Problem 1 (problem1)</title>
   <meta name="viewport" content="width=device-width,initial-scale=1">
   <style>
   body {
@@ -58,9 +58,14 @@
   <!-- This file lives in public/500.html -->
   <div class="dialog">
     <div>
-      <h1>We're sorry, but something went wrong.</h1>
+      <h1>Answer to Project Euler Problem 1</h1>
     </div>
-    <p>If you are the application owner check the logs for more information.</p>
+    <p>b = 0
+(1...1000).each do |x|
+	b = b + x if (x%3 == 0 || x%5 == 0)
+end
+ 
+puts b</p>
   </div>
 </body>
 </html>

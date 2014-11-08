@@ -1,0 +1,2 @@
+module RubymathHelper
+end
